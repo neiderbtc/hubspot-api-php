@@ -1,0 +1,19 @@
+{
+    "name": "vendor/name",
+    "description": "exmaple",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Name\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "neiderbtc",
+            "email": "neiderbtc@gmail.com"
+        }
+    ],
+    "require": {
+        "hubspot/api-client": "^4.0",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
